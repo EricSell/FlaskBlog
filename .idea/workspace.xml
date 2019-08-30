@@ -50,6 +50,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\软件\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Pg7XU4M8lqCfODi2pvXnMZiiYQ" />
@@ -143,11 +144,23 @@
       <workItem from="1567041498647" duration="625000" />
       <workItem from="1567045421292" duration="1853000" />
       <workItem from="1567055846473" duration="15362000" />
+      <workItem from="1567127681597" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
