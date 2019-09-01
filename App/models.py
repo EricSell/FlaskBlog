@@ -38,7 +38,7 @@ class Type(db.Model):
 # 文章
 class Article(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    article_name = db.Column(db.String(25))
+    article_name = db.Column(db.String(255))
     article_content = db.Column(db.TEXT)
     article_time = db.Column(db.Date, default=datetime.datetime.now())
     pict = db.Column(db.String(255))
@@ -51,17 +51,26 @@ class Article(db.Model):
 # 用户
 class User(db.Model):
     id = db.Column(db.Integer,primary_key=True,autoincrement=True)
+    idname = db.Column(db.String(25),unique=True)
+    phone = db.Column(db.String(20),unique=True)
     name = db.Column(db.String(25))
     password = db.Column(db.String(25))
     content = db.Column(db.String(50))
     age = db.Column(db.Integer,default=0)
     icon = db.Column(db.String(255))
+    is_super = db.Column(db.Boolean,default=False)
+    photos = db.relationship('Photo',backref='users',lazy='dynamic')
+    commands = db.relationship('Command',backref='user',lazy=True)
+    userlogins = db.relationship('UserLogin',backref='user',lazy='dynamic')
+
+# 超级管理员登录
+class UserLogin(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     loginsum = db.Column(db.Integer,default=0)
     logindate = db.Column(db.DateTime)
     IP = db.Column(db.String(50))
-    is_super = db.Column(db.Boolean,default=False)
-    photos = db.relationship('Photo',backref='users',lazy='dynamic')
-    commands = db.relationship('Command',backref='user',lazy='dynamic')
+    is_success = db.Column(db.Boolean,default=False)
+    s_id = db.Column(db.Integer,db.ForeignKey(User.id))
 
 
 # 评论

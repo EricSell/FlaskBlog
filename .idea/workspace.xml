@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00330972-d09c-4e85-87a2-5fafabc22fc0" name="Default Changelist" comment="" />
+    <list default="true" id="00330972-d09c-4e85-87a2-5fafabc22fc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f07c52c3-67ed-48b8-9edc-ab6324815070.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f07c52c3-67ed-48b8-9edc-ab6324815070.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/38769c39c499_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/8f1ee0737c39_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/cef573cf8f0d_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/dadc8c4a107b_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/js/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/blog/js/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/add-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/add-article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/manage-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/manage-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/update-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/update-article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/update-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/update-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/gbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/gbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/infopic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/infopic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/share.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +89,7 @@
     <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Day03/code/ChatPro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,16 +99,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro" />
+      <recent name="D:\Study\Frame\Flask\Day02\code\ModelPro\app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro\static\blog" />
       <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro\templates\blog" />
       <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro\static\admin" />
       <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro\templates\admin" />
       <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro\templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Study\Frame\Tornado\FlaskBlog2Pro" />
-      <recent name="D:\Study\Frame\Flask\Day02\code\ModelPro\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,6 +176,11 @@
       <workItem from="1567045421292" duration="1853000" />
       <workItem from="1567055846473" duration="15362000" />
       <workItem from="1567127681597" duration="12000" />
+      <workItem from="1567164078211" duration="550000" />
+      <workItem from="1567164654456" duration="23051000" />
+      <workItem from="1567227233258" duration="25049000" />
+      <workItem from="1567298699334" duration="19962000" />
+      <workItem from="1567322122283" duration="29000" />
     </task>
     <servers />
   </component>
@@ -156,21 +192,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="jinja2-line">
-          <url>file://$PROJECT_DIR$/templates/admin/index.html</url>
-          <line>54</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
